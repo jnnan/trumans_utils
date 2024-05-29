@@ -29,9 +29,11 @@ Here's the revised explanation of the files and folders of the TRUMANS dataset:
 #### Note: The data associated with action labels will be uploaded soon.
 
 ## Citation
+```
 @article{jiang2024scaling,
   title={Scaling up dynamic human-scene interaction modeling},
   author={Jiang, Nan and Zhang, Zhiyuan and Li, Hongjie and Ma, Xiaoxuan and Wang, Zan and Chen, Yixin and Liu, Tengyu and Zhu, Yixin and Huang, Siyuan},
   journal={arXiv preprint arXiv:2403.08629},
   year={2024}
 }
+```
