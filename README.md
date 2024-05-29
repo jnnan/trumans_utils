@@ -2,9 +2,11 @@
 
 This is the code repository of **Scaling Up Dynamic Human-Scene Interaction Modeling** at **CVPR24 (highlight)** 
 
+-[arXiv](https://arxiv.org/abs/2403.08629)-[Project Page](https://jnnan.github.io/trumans/)-[Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link)-
+
 ## TRUMANS Dataset
 
-Please download the TRUMANS dataset from [project page](https://jnnan.github.io/trumans/#datasetform). The content inside the download link will be continuously updated to ensure you have access to the most recent data.
+Please download the TRUMANS dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link). The content inside the download link will be continuously updated to ensure you have access to the most recent data.
 
 Here's the revised explanation of the files and folders of the TRUMANS dataset:
 
