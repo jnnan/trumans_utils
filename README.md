@@ -1,8 +1,7 @@
 # Scaling Up Dynamic Human-Scene Interaction Modeling
 
-This is the code repository of **Scaling Up Dynamic Human-Scene Interaction Modeling** at **CVPR24 (highlight)** 
-
--[arXiv](https://arxiv.org/abs/2403.08629)-[Project Page](https://jnnan.github.io/trumans/)-[Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link)-
+#### This is the code repository of **Scaling Up Dynamic Human-Scene Interaction Modeling** at **CVPR24 (highlight)** 
+#### [arXiv](https://arxiv.org/abs/2403.08629) | [Project Page](https://jnnan.github.io/trumans/) | [Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) | [Demo](https://huggingface.co/spaces/jnnan/trumans)
 
 ## TRUMANS Dataset
 
@@ -28,3 +27,11 @@ Here's the revised explanation of the files and folders of the TRUMANS dataset:
 - **bad_frames:** This is a list of frames that contain erroneous MoCap data.
 
 #### Note: The data associated with action labels will be uploaded soon.
+
+## Citation
+@article{jiang2024scaling,
+  title={Scaling up dynamic human-scene interaction modeling},
+  author={Jiang, Nan and Zhang, Zhiyuan and Li, Hongjie and Ma, Xiaoxuan and Wang, Zan and Chen, Yixin and Liu, Tengyu and Zhu, Yixin and Huang, Siyuan},
+  journal={arXiv preprint arXiv:2403.08629},
+  year={2024}
+}
