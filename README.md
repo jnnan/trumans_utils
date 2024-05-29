@@ -26,7 +26,7 @@ Here's the revised explanation of the files and folders of the TRUMANS dataset:
 - **object_mat:** This file contains a (3,792,068 x 5 x 4 x 4) array. The second dimension (with shape 5) corresponds to the 5 types of objects, whose existence is indicated in the  `object_flag.npy`  file. The last two dimensions represent the rotation and translation of the object in a 4x4 matrix.
 - **bad_frames:** This is a list of frames that contain erroneous MoCap data.
 
-#### Note: The data associated with action labels will be uploaded soon.
+#### Note: The data associated with action labels, interactable objects, and 2D rendering will be uploaded soon.
 
 ## Citation
 ```
