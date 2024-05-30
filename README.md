@@ -7,7 +7,7 @@
 
 Please download the TRUMANS dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link). The content inside the download link will be continuously updated to ensure you have access to the most recent data.
 
-Here's the revised explanation of the files and folders of the TRUMANS dataset:
+Explanation of the files and folders of the TRUMANS dataset:
 
 - **Scene (folder):** This folder contains the occupancy grids for the scenes in the TRUMANS dataset. The coverage range is from -3 to 3 meters along the x-axis, 0 to 2 meters along the y-axis, and -4 to 4 meters along the z-axis. The voxel shape is (300, 100, 400) in the x, y, and z axis order, using a y-up coordinate system.
 - **Scene_mesh (folder):** This folder includes the OBJ mesh files of the scenes.
