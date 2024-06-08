@@ -8,7 +8,7 @@ All the interactable objects in TRUMANS dataset are released.
 
 # Human Motion Synthesis in Editable Indoor Scenes
 
-This project provides an implementation of a method for synthesizing human motion in an indoor scene, based on a user-defined trajectory. The furniture configuration within the scene can be edited by the user to better fit their specific use cases. This is achieved by using a Flask application to facilitate the interaction and visualization.
+This project provides an implementation of our method for synthesizing human motion in an indoor scene, based on a user-defined trajectory. The furniture configuration within the scene can be edited freely by the user. This is achieved by using a [Flask](https://flask.palletsprojects.com/en/3.0.x/quickstart/) application to facilitate the interactive input and visualization.
 
 ## Features
 
