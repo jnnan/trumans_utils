@@ -3,10 +3,65 @@
 #### This is the code repository of **Scaling Up Dynamic Human-Scene Interaction Modeling** at **CVPR24 (highlight)** 
 #### [arXiv](https://arxiv.org/abs/2403.08629) | [Project Page](https://jnnan.github.io/trumans/) | [Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) | [Demo](https://huggingface.co/spaces/jnnan/trumans)
 
-## News
+# News
 All the interactable objects in TRUMANS dataset are released.
 
-## TRUMANS Dataset
+# Human Motion Synthesis in Editable Indoor Scenes
+
+This project provides an implementation of a method for synthesizing human motion in an indoor scene, based on a user-defined trajectory. The furniture configuration within the scene can be edited by the user to better fit their specific use cases. This is achieved by using a Flask application to facilitate the interaction and visualization.
+
+## Features
+
+- **Editable Indoor Scene**: Users can modify the furniture configuration within the indoor scene.
+- **Trajectory Drawing**: Users can draw a trajectory within the scene.
+- **Human Motion Synthesis**: The application generates human motion based on the drawn trajectory.
+
+## Getting Started
+
+### Prerequisites
+
+To run the application, you need to have the following installed:
+
+- Python 3.x
+- Flask
+- Required Python packages (specified in `requirements.txt`)
+
+### Installation
+
+1. **Clone the Repository**:
+    ```sh
+    git clone https://github.com/jnnan/trumans_utils.git
+    cd trumans_utils
+    ```
+
+2. **Download Checkpoints, Data, and SMPL-X Models**:
+    - Download the necessary files and folders from [this link](https://drive.google.com/file/d/1sjfaUTg2pv7VEjQYwk313vZSbG_kXPv0/view?usp=sharing).
+    - Place the downloaded folders at the root of the project directory.
+
+3. **Install Python Packages**:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+### Running the Application
+
+To start the Flask application:
+
+```sh
+python3 -m flask run --host=0.0.0.0
+```
+
+The application will be available at `http://0.0.0.0:5000`.
+
+## Usage
+
+1. Open your web browser and navigate to `http://0.0.0.0:5000`.
+2. You will see an interface where you can edit the indoor scene configuration.
+3. Draw a trajectory within the scene.
+4. The application will synthesize human motion based on the drawn trajectory and display it within the scene.
+
+
+# TRUMANS Dataset
 
 Please download the TRUMANS dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link). The content inside the download link will be continuously updated to ensure you have access to the most recent data.
 
@@ -35,7 +90,7 @@ Explanation of the files and folders of the TRUMANS dataset:
 
 #### Note: The data associated with action labels and 2D rendering will be uploaded soon.
 
-## Citation
+# Citation
 ```
 @article{jiang2024scaling,
   title={Scaling up dynamic human-scene interaction modeling},
