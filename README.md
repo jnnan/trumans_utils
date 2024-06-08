@@ -15,6 +15,9 @@ Explanation of the files and folders of the TRUMANS dataset:
 - **Object_chairs:** 
     - **Object (folder):** This folder holds the occupancy grids for the sittable objects in the TRUMANS dataset. The format is the same as that of the scenes.
     - **Object_mesh (folder):** This folder contains the OBJ mesh files of the objects.
+- **Object_all:** All interactable objects.
+    - **Object_pose:** Object rotation (xyz Euler) and location (y-up coordinate system) for each motion segment.
+    - **Object_mesh:** OBJ mesh of the objects.
 - **human_pose.npy:** This file contains a (3,792,068 x 63) array, where each row corresponds to the 63-dimensional SMPL-X body_pose parameter of one frame of MoCap data. The data is a concatenation of all motion segments.
 - **human_orient.npy:** This file contains a (3,792,068 x 3) array corresponding to the global_orient parameter of SMPL-X.
 - **human_transl.npy:** This file contains a (3,792,068 x 3) array corresponding to the transl parameter of SMPL-X.
@@ -27,7 +30,7 @@ Explanation of the files and folders of the TRUMANS dataset:
 - **object_mat.npy:** This file contains a (3,792,068 x 5 x 4 x 4) array. The second dimension (with shape 5) corresponds to the 5 types of objects, whose existence is indicated in the  `object_flag.npy`  file. The last two dimensions represent the rotation and translation of the object in a 4x4 matrix.
 - **bad_frames.npy:** This is a list of frames that contain erroneous MoCap data.
 
-#### Note: The data associated with action labels, interactable objects, and 2D rendering will be uploaded soon.
+#### Note: The data associated with action labels and 2D rendering will be uploaded soon.
 
 ## Citation
 ```
