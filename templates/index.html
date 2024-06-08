@@ -1,0 +1,69 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Three.js Cube</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <style>
+        body { margin: 0; }
+        /*canvas { width: 100%; height: 100% }*/
+
+
+
+
+        /*.buttonOverlay {*/
+        /*    position: absolute;*/
+        /*    top: 3%; !* Distance from the top of the container *!*/
+        /*    left: 60%; !* Distance from the left of the container *!*/
+        /*    z-index: 100; !* Ensures it's above the canvas *!*/
+        /*    !* Additional styles *!*/
+        /*    padding: 10px 20px; !* Example padding, adjust as needed *!*/
+        /*    border: none; !* Example style, adjust as needed *!*/
+        /*    background-color: #007bff; !* Example background color, adjust as needed *!*/
+        /*    color: white; !* Text color *!*/
+        /*    font-size: 32px; !* Text size *!*/
+        /*    cursor: pointer; !* Mouse cursor on hover *!*/
+        /*    border-radius: 5px; !* Rounded corners *!*/
+        /*}*/
+        /*#buttonOverlaySecond {*/
+        /*    left: 30%;*/
+        /*}*/
+    </style>
+</head>
+<body>
+
+<!--    <canvas id="canvas" class="webgl" style="height: 100%; width: 100%;"></canvas>-->
+    <div class="flex-container">
+      <div class="left-column">
+        <img src="/static/tutorial.gif" alt="this slowpoke moves"  height="100%" />
+      </div>
+      <div class="right-column">
+          <div class="container">
+              <button id="toggleDraw" class="button-74" role="button">Draw Trajectory</button>
+              <button id="generateMotion" class="button-74" role="button">Generate Motion</button>
+              <button id="reset" class="button-74" role="button">Reset</button>
+
+          </div>
+
+          <div id="canvas-container"></div>
+
+      </div>
+
+    <!--    <button id="buttonOverlay" class="buttonOverlay">Generate Motion</button>-->
+    <!--    <button id="buttonOverlaySecond" class="buttonOverlay">Toggle Draw</button>-->
+
+<!--        <script src="/static/index.js" type="module" ></script>-->
+      </div>
+    </div>
+
+
+
+
+<script src="/static/index.js" type="module"></script>
+
+
+
+</body>
+</html>

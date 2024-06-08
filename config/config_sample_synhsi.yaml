@@ -1,0 +1,86 @@
+
+exp_name: Test
+train: false
+batch_size: 1
+device: cuda
+interp_s: 3
+
+len_pre: 4
+len_act: 2
+action_type: 'none'
+scene_name: 'background'
+action_id: 1
+stay_and_act: false
+
+method_name: Test
+continue_last: false
+
+#exp_dir: ${oc.env:ROOT_DIR}/Experiments/${exp_name}
+ckpt_dir: ./Checkpoints
+smpl_dir: ./smpl_models
+#test_dir: ${oc.env:ROOT_DIR}/Test_settings
+
+num_gpus: 1
+num_workers: 0
+
+dataset:
+  folder: ./Data_blocks_motion_all
+  device: cuda
+  batch_size: 1
+  seq_len: 16
+  step: 3
+  nb_voxels: 32
+  mesh_grid: [ -0.6, 0.6, 0, 1.2, -0.6, 0.6 ]
+  train: false
+  load_scene: true
+  load_action: true
+
+  joints_ind: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 25, 40 ]
+  nb_joints: 24
+  nb_actions: 10
+
+guidance:
+  pelvis:
+    seq_len: 16
+    step: 3
+    mask_ind: 0
+    fixed_frame: 2
+    mask_y: false
+    emb_f: -1
+    no_scene: false
+    no_action: false
+    fix_mode: true
+
+model:
+  model_smplx:
+    input_dim: 72
+    output_dim: 132
+    hidden_dim: 64
+    ckpt: ./Checkpoints/model_joints_to_smpl_wrist.pth
+  synhsi_body:
+    dim_model: 512
+    num_heads: 16
+    num_layers: 8
+    dropout_p: 0.1
+    nb_voxels: 32
+    free_p: 0
+    ac_type: last_add_first_token
+    dim_input: 72
+    dim_output: 72
+    nb_actions: 10
+    no_scene: false
+    no_action: false
+    ckpt: ./Checkpoints/TRUMANS_mask_ind[0]_timesteps[100]_fixed_frame[2]_ac_type[last_add_first_token]_no_scene[False]_no_action[False]_batch_size[256]_epoch360.pth
+
+sampler:
+  pelvis:
+    _target_: models.synhsi.Sampler
+    device: cuda
+    mask_ind: 0
+    emb_f: -1
+    batch_size: 1
+    seq_len: 16
+    channel: 72
+    fix_mode: true
+    timesteps: 100
+    fixed_frame: 2

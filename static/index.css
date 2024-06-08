@@ -1,0 +1,73 @@
+/*<!-- HTML !-->*/
+/*<button class="button-73" role="button">Button 73</button>*/
+
+
+.flex-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  .left-column {
+    flex: 0 0 50px; /* Fixed width */
+    background-color: #f2f2f2;
+    /* More styles for the left column content */
+  }
+  .right-column {
+    flex-grow: 1; /* Fill the remaining width */
+    background-color: #e8e8e8;
+    /* More styles for the right column content */
+  }
+  /* Style for the Three.js canvas container */
+  #canvas-container {
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+/* CSS */
+.container {
+  position: absolute;
+  top: 3%;
+  left: 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
