@@ -51,11 +51,11 @@ To start the Flask application:
 python3 -m flask run --host=0.0.0.0
 ```
 
-The application will be available at `http://0.0.0.0:5000`.
+The application will be available at `http://127.0.0.1:5000`.
 
 ## Usage
 
-1. Open your web browser and navigate to `http://0.0.0.0:5000`.
+1. Open your web browser and navigate to `http://127.0.0.1:5000`.
 2. You will see an interface where you can edit the indoor scene configuration.
 3. Draw a trajectory within the scene.
 4. The application will synthesize human motion based on the drawn trajectory and display it within the scene.
