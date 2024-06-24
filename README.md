@@ -36,7 +36,7 @@ To run the application, you need to have the following installed:
 
 2. **Download Checkpoints, Data, and SMPL-X Models**:
     - Download the necessary files and folders from [this link](https://drive.google.com/file/d/1sjfaUTg2pv7VEjQYwk313vZSbG_kXPv0/view?usp=sharing).
-    - Place the downloaded folders at the root of the project directory.
+    - Extract trumans_demo.zip, and place the four folders at the root of the project directory (./trumans_utils).
 
 3. **Install Python Packages**:
     ```sh
