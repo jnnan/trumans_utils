@@ -93,10 +93,11 @@ Explanation of the files and folders of the TRUMANS dataset:
 
 # Citation
 ```
-@article{jiang2024scaling,
+@inproceedings{jiang2024scaling,
   title={Scaling up dynamic human-scene interaction modeling},
   author={Jiang, Nan and Zhang, Zhiyuan and Li, Hongjie and Ma, Xiaoxuan and Wang, Zan and Chen, Yixin and Liu, Tengyu and Zhu, Yixin and Huang, Siyuan},
-  journal={arXiv preprint arXiv:2403.08629},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1737--1747},
   year={2024}
 }
 ```
