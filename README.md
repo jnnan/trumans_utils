@@ -4,7 +4,7 @@
 #### [arXiv](https://arxiv.org/abs/2403.08629) | [Project Page](https://jnnan.github.io/trumans/) | [Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) | [Demo](https://huggingface.co/spaces/jnnan/trumans)
 
 # News
-- 🎉 **The Action Annotation is being released!** 🎉 Starting at July 11th, we'll be uploading several files each day for the next 7 days. Download the full dataset from [this link](https://drive.google.com/file/d/1sjfaUTg2pv7VEjQYwk313vZSbG_kXPv0/view?usp=sharing) and the action annotation is in the **Action** folder.
+- 🎉 **The Action Annotation is being released!** 🎉 Starting at July 11th, we'll be uploading several files each day for the next 7 days. Download the full dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) and the action annotation is in the **Action** folder.
 - RGB videos in **30 FPS** and smplx parameters in camera coordinate can be [download](https://drive.google.com/drive/folders/1axXjugOzxlWD_kJsY6v-cn5Q7k5V1YfL?usp=sharing)
 - All the interactable objects in TRUMANS dataset are released.
 
