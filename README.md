@@ -4,7 +4,7 @@
 #### [arXiv](https://arxiv.org/abs/2403.08629) | [Project Page](https://jnnan.github.io/trumans/) | [Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) | [Demo](https://huggingface.co/spaces/jnnan/trumans)
 
 # News
-- RGB videos in 6 FPS and smplx parameters in camera coordinate can be [download](https://drive.google.com/drive/folders/1axXjugOzxlWD_kJsY6v-cn5Q7k5V1YfL?usp=sharing)
+- RGB videos in *30 FPS** and smplx parameters in camera coordinate can be [download](https://drive.google.com/drive/folders/1axXjugOzxlWD_kJsY6v-cn5Q7k5V1YfL?usp=sharing)
 - All the interactable objects in TRUMANS dataset are released.
 
 # Human Motion Synthesis in Editable Indoor Scenes
