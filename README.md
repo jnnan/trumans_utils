@@ -81,6 +81,8 @@ Explanation of the files and folders of the TRUMANS dataset:
 - **human_pose.npy:** This file contains a (3,792,068 x 63) array, where each row corresponds to the 63-dimensional SMPL-X body_pose parameter of one frame of MoCap data. The data is a concatenation of all motion segments.
 - **human_orient.npy:** This file contains a (3,792,068 x 3) array corresponding to the global_orient parameter of SMPL-X.
 - **human_transl.npy:** This file contains a (3,792,068 x 3) array corresponding to the transl parameter of SMPL-X.
+- **left_hand_pose.npy:**
+- **right_hand_pose.npy:**
 - **seg_name.npy:** This file contains a (3,792,068,) string array, where each string represents the motion segment name of a particular frame.
 - **frame_id.npy:** This file contains a (3,792,068,) integer array, with each value representing the frame number of the original motion segment to which the current index belongs.
 - **scene_list.npy:** This is a list of scene names corresponding to the files in the "Scene" folder.
