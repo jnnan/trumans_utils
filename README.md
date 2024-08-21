@@ -69,6 +69,10 @@ Please download the TRUMANS dataset from [Google Drive](https://docs.google.com/
 
 Explanation of the files and folders of the TRUMANS dataset:
 
+- **Action (folder):** This folder contains the action annotation in language for each motion segment, indicated by each file name.
+- **smplx_result (folder):** SMPL-X annotation for each motion segment in global coordinate.
+- **smplx_result_in_cam (folder):** SMPL-X annotation for each motion segment in the camera coordinate of corresponding frames.
+- **video_render (folder):** RGB video rendering of each motion segment in 30 FPS.
 - **Scene (folder):** This folder contains the occupancy grids for the scenes in the TRUMANS dataset. The coverage range is from -3 to 3 meters along the x-axis, 0 to 2 meters along the y-axis, and -4 to 4 meters along the z-axis. The voxel shape is (300, 100, 400) in the x, y, and z axis order, using a y-up coordinate system.
 - **Scene_mesh (folder):** This folder includes the OBJ mesh files of the scenes.
 - **Scene_occ_render (folder):** This folder contains the top-down view renders of the scene occupancy grids.
@@ -81,8 +85,8 @@ Explanation of the files and folders of the TRUMANS dataset:
 - **human_pose.npy:** This file contains a (3,792,068 x 63) array, where each row corresponds to the 63-dimensional SMPL-X body_pose parameter of one frame of MoCap data. The data is a concatenation of all motion segments.
 - **human_orient.npy:** This file contains a (3,792,068 x 3) array corresponding to the global_orient parameter of SMPL-X.
 - **human_transl.npy:** This file contains a (3,792,068 x 3) array corresponding to the transl parameter of SMPL-X.
-- **left_hand_pose.npy:**
-- **right_hand_pose.npy:**
+- **left_hand_pose.npy:** Left hand pose in SMPL-X.
+- **right_hand_pose.npy:** Right hand pose in SMPL-X.
 - **seg_name.npy:** This file contains a (3,792,068,) string array, where each string represents the motion segment name of a particular frame.
 - **frame_id.npy:** This file contains a (3,792,068,) integer array, with each value representing the frame number of the original motion segment to which the current index belongs.
 - **scene_list.npy:** This is a list of scene names corresponding to the files in the "Scene" folder.
