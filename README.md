@@ -5,7 +5,6 @@
 
 # News
 - 🎉🎉🎉 **The Action Annotation is released!** 🎉🎉🎉 Download the full dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) and the action annotation is in the **Actions** folder, with start frame, end frame and textual description.
-- **RGB videos in 30 FPS** and smplx parameters in camera coordinate can be [download](https://drive.google.com/drive/folders/1axXjugOzxlWD_kJsY6v-cn5Q7k5V1YfL?usp=sharing)
 - All the interactable objects in TRUMANS dataset are released.
 
 # Human Motion Synthesis in Editable Indoor Scenes
