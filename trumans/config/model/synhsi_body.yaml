@@ -1,0 +1,15 @@
+synhsi_body:
+  _target_: models.synhsi.Unet
+  dim_model: 512
+  num_heads: 16
+  num_layers: 8
+  dropout_p: 0.1
+  nb_voxels: ${dataset.nb_voxels}
+  free_p: 0
+  ac_type: last_add_first_token
+  dim_input: ${times:${dataset.nb_joints},3}
+  dim_output: ${times:${dataset.nb_joints},3}
+  nb_actions: ${dataset.nb_actions}
+  no_scene: ${guidance.pelvis.no_scene}
+  no_action: ${guidance.pelvis.no_action}
+  ckpt: ${ckpt_dir}/TRUMANS_mask_ind[0]_timesteps[100]_fixed_frame[2]_ac_type[last_add_first_token]_no_scene[False]_no_action[False]_batch_size[256]_epoch360.pth

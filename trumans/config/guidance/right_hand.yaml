@@ -1,0 +1,10 @@
+right_hand:
+  seq_len: ${dataset.seq_len}
+  step: ${dataset.step}
+  mask_ind: 23
+  fixed_frame: 2
+  emb_f: -1
+  mask_y: true
+  no_scene: false
+  no_action: true
+  fix_mode: true

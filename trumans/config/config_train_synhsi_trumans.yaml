@@ -1,0 +1,31 @@
+defaults:
+  - dataset: trumans
+  - guidance:
+      - pelvis
+  - model:
+      - synhsi_body
+  - sampler:
+      - pelvis
+  - _self_
+
+exp_name: train_trumans
+train: true
+load_state_dict: false
+batch_size: 256
+lr: 0.0001
+epochs: 300
+device: cuda:0
+
+ckpt_interval: 40
+
+exp_dir: ${oc.env:ROOT_DIR}/Experiments/${exp_name}
+ckpt_dir: ${oc.env:ROOT_DIR}/Checkpoints
+smpl_dir: ${oc.env:ROOT_DIR}/smpl_models
+test_dir: ${oc.env:ROOT_DIR}/Test_settings
+
+num_gpus: 1
+num_workers: 2
+
+hydra:
+  run:
+    dir: ${exp_dir}

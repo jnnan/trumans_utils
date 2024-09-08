@@ -1,0 +1,6 @@
+model_smplx:
+  _target_: models.joints_to_smplx.JointsToSMPLX
+  input_dim: ${times:${dataset.nb_joints},3}
+  output_dim: 132
+  hidden_dim: 64
+  ckpt: ${ckpt_dir}/model_joints_to_smpl_wrist.pth

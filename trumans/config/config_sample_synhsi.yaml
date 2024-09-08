@@ -1,0 +1,41 @@
+defaults:
+  - _self_
+  - dataset: trumans
+  - guidance:
+      - pelvis
+      - right_hand
+  - model:
+      - model_smplx
+      - synhsi_body
+      - synhsi_hand
+  - sampler:
+      - pelvis
+      - right_hand
+
+exp_name: Test_release
+train: false
+batch_size: 1
+device: cuda
+interp_s: 3
+
+len_pre: 4
+len_act: 0
+action_type: 'none'
+scene_name: 2a8a
+action_id: 1
+stay_and_act: false
+
+method_name: Test
+continue_last: false
+
+exp_dir: ${oc.env:ROOT_DIR}/Experiments/${exp_name}
+ckpt_dir: ${oc.env:ROOT_DIR}/Checkpoints
+smpl_dir: ${oc.env:ROOT_DIR}/smpl_models
+test_dir: ${oc.env:ROOT_DIR}/Test_settings
+
+num_gpus: 1
+num_workers: 0
+
+hydra:
+  run:
+    dir: ${exp_dir}

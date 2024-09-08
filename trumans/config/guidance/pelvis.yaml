@@ -1,0 +1,10 @@
+pelvis:
+  seq_len: ${dataset.seq_len}
+  step: ${dataset.step}
+  mask_ind: 0 #0
+  fixed_frame: 2
+  mask_y: false
+  emb_f: -1
+  no_scene: false
+  no_action: false
+  fix_mode: true

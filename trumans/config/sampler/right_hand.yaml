@@ -1,0 +1,11 @@
+right_hand:
+  _target_: models.synhsi.Sampler
+  device: ${device}
+  mask_ind: ${guidance.right_hand.mask_ind}
+  emb_f: ${guidance.right_hand.emb_f}
+  batch_size: ${batch_size}
+  seq_len: ${dataset.seq_len}
+  channel: ${times:${dataset.nb_joints},3}
+  fix_mode: ${guidance.right_hand.fix_mode}
+  timesteps: 100
+  fixed_frame: ${guidance.right_hand.fixed_frame}

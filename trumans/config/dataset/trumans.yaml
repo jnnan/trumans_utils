@@ -1,0 +1,17 @@
+_target_: datasets.trumans.TrumansDataset
+
+folder: ${oc.env:ROOT_DIR}/Data_release/
+device: ${device}
+batch_size: ${batch_size}
+seq_len: 16
+step: 3
+nb_voxels: 32
+mesh_grid: [-0.6, 0.6, 0, 1.2, -0.6, 0.6]
+train: ${train}
+load_scene: true
+load_action: true
+
+joints_ind: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 25, 40]
+nb_joints: 24
+nb_actions: 10
+
