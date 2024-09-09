@@ -4,6 +4,7 @@
 #### [arXiv](https://arxiv.org/abs/2403.08629) | [Project Page](https://jnnan.github.io/trumans/) | [Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) | [Demo](https://huggingface.co/spaces/jnnan/trumans)
 
 # News
+- [Training code](#training) has been updated
 - 🎉🎉🎉 **The Action Annotation is released!** 🎉🎉🎉 Download the full dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) and the action annotation is in the **Actions** folder, with start frame, end frame and textual description.
 - All the interactable objects in TRUMANS dataset are released.
 
