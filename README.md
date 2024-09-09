@@ -124,7 +124,7 @@ The dataset includes an `action_label.npy` file containing frame-wise annotation
 | Pen              | 8     |
 | Vase             | 9     |
 
-These labels are used during the training to provide supervision for the learning model. To generate motion according to the predefined labels, change line 81 of [sample_hsi.py](https://github.com/jnnan/trumans_utils/blob/main/sample_hsi.py)
+These labels are used during the training to provide supervision for the learning model. To visualize the generated motion according to the predefined labels, see the [demo part](#human-motion-synthesis-in-editable-indoor-scenes) and change line 81 of [sample_hsi.py](https://github.com/jnnan/trumans_utils/blob/main/sample_hsi.py)
 
 
 # TRUMANS Dataset
