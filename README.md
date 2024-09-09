@@ -61,6 +61,71 @@ The application will be available at `http://127.0.0.1:5000`.
 3. Draw a trajectory within the scene.
 4. The application will synthesize human motion based on the drawn trajectory and display it within the scene.
 
+# Training
+## Overview
+
+This README provides instructions on setting up and training the TRUMANS model using the provided dataset.
+
+## Prerequisites
+
+Before you begin, make sure you have the following software installed:
+```sh
+    pip install -r requirements.txt
+```
+
+## Dataset Setup
+
+1. Download the TRUMANS dataset from the provided link.
+2. Place the dataset files in the following directory within your project:
+   ```
+   ./trumans/Data_release
+   ```
+
+## Configuration
+
+Set the `ROOT_DIR` environment variable to the absolute path of the `./trumans` directory in your system. This can be done by adding the following line to your `.bashrc` or `.bash_profile`:
+
+```bash
+export ROOT_DIR='/absolute/path/to/trumans'
+```
+
+Make sure to replace `/absolute/path/to/trumans` with the actual path to the `trumans` folder on your machine.
+
+## Model Training
+
+Navigate to the `trumans` directory:
+
+```bash
+cd trumans
+```
+
+To start training the model, run the training script from the command line:
+
+```bash
+python train_synhsi.py
+```
+
+The training script will automatically load the dataset from `Data_release`, set up the model, and commence training sessions using the configurations in ./trumans/config folder.
+
+## Annotation
+
+The dataset includes an `action_label.npy` file containing frame-wise annotations for the motions. The labels correspond to the type of interaction and are indexed as follows:
+
+| Interaction Type | Label |
+|------------------|-------|
+| Lie down         | 0     |
+| Squat            | 1     |
+| Mouse            | 2     |
+| Keyboard         | 3     |
+| Laptop           | 4     |
+| Phone            | 5     |
+| Book             | 6     |
+| Bottle           | 7     |
+| Pen              | 8     |
+| Vase             | 9     |
+
+These labels are used during the training to provide supervision for the learning model. To generate motion according to the predefined labels, change line 81 of [sample_hsi.py](https://github.com/jnnan/trumans_utils/blob/main/sample_hsi.py)
+
 
 # TRUMANS Dataset
 
