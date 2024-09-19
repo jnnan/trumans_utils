@@ -157,7 +157,7 @@ Explanation of the files and folders of the TRUMANS dataset:
 - **scene_list.npy:** This is a list of scene names corresponding to the files in the "Scene" folder.
 - **scene_flag.npy:** This file contains a (3,792,068,) integer array. Each value indicates the scene name of the current frame by indexing the  `scene_list.npy`.
 - **object_list.npy:** This is a list of object names corresponding to the files in the "Object" folder.
-- **object_flag.npy:** This file contains a (3,792,068 x 32) integer array. Each row has 32 values, indicating the presence of 32 objects for each frame index. A value of -1 means the corresponding object does not apply, while a value equal to or greater than 1 indicates the presence of the object in that frame. The value is linked to the  `object_mat.npy`  file.
+- **object_flag.npy:** This file contains a (3,792,068 x 35) integer array. Each row has 35 values, indicating the presence of 35 objects for each frame index. A value of -1 means the corresponding object does not apply, while a value equal to or greater than 1 indicates the presence of the object in that frame. The value is linked to the  `object_mat.npy`  file.
 - **object_mat.npy:** This file contains a (3,792,068 x 5 x 4 x 4) array. The second dimension (with shape 5) corresponds to the 5 types of objects, whose existence is indicated in the  `object_flag.npy`  file. The last two dimensions represent the rotation and translation of the object in a 4x4 matrix.
 - **bad_frames.npy:** This is a list of frames that contain erroneous MoCap data.
 
