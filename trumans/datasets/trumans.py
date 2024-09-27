@@ -13,7 +13,7 @@ class TrumansDataset(Dataset):
         self.load_action = load_action
 
         self.global_orient = np.load(os.path.join(folder, 'human_orient.npy'))
-        self.motion_ind = np.load(os.path.join(folder, 'frame_id.npy'))
+        self.motion_ind = np.load(os.path.join(folder, 'idx_start.npy'))
         self.joints = np.load(os.path.join(folder, 'human_joints.npy'))
 
         self.seq_len=seq_len
