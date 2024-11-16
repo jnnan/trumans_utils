@@ -10,10 +10,7 @@
   1. Download blender from the [official page](https://www.blender.org/download/)
   2. Download our [addon](https://github.com/jnnan/trumans_utils/blob/main/HSI_addon-zzy.zip) for data visualization
   3. Install the addon, and navigate the scenes following our tutorial:
-<video src="https://github.com/user-attachments/assets/0461a646-67d3-4fd4-81e1-c0370052b46c"></video>
-
-
-
+https://github.com/user-attachments/assets/3a510469-0146-4e14-a259-54366168001a
 - [Training code](#training) has been updated
 - **The Action Annotation is released!** Download the full dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) and the action annotation is in the **Actions** folder, with start frame, end frame and textual description.
 - All the interactable objects in TRUMANS dataset are released.
