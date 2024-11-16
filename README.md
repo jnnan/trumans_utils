@@ -4,8 +4,13 @@
 #### [arXiv](https://arxiv.org/abs/2403.08629) | [Project Page](https://jnnan.github.io/trumans/) | [Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) | [Demo](https://huggingface.co/spaces/jnnan/trumans)
 
 # News
+- 🎉🎉🎉 **The meshes and textures are released!** 🎉🎉🎉 Download the full dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) and the scenes are in the **Recoerdings_blend** folder. Each .blend file contains 10 motion-captured sequences in that scene.
+  How to Use:
+  1. Download blender from the [official page](https://www.blender.org/download/)
+  2. Download our [addon](https://github.com/jnnan/trumans_utils/blob/main/HSI_addon-zzy.zip) for data visualization
+  3. Install the addon, and navigate the scenes following our [tutorial](https://github.com/jnnan/trumans_utils/blob/main/tutorial.mp4)
 - [Training code](#training) has been updated
-- 🎉🎉🎉 **The Action Annotation is released!** 🎉🎉🎉 Download the full dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) and the action annotation is in the **Actions** folder, with start frame, end frame and textual description.
+- **The Action Annotation is released!** Download the full dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) and the action annotation is in the **Actions** folder, with start frame, end frame and textual description.
 - All the interactable objects in TRUMANS dataset are released.
 
 # Human Motion Synthesis in Editable Indoor Scenes
