@@ -4,6 +4,8 @@
 #### [arXiv](https://arxiv.org/abs/2403.08629) | [Project Page](https://jnnan.github.io/trumans/) | [Dataset](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) | [Demo](https://huggingface.co/spaces/jnnan/trumans)
 
 # News
+- We have uploaded a new tool for lightning-fast human motion visualization. This script enables you to render SMPL-X motions in Blender with a processing time of under 1 second. You'll find everything you need in the 'visualize_smplx_motion' folder in this repository, including the main script, a sample motion file for testing, and a video tutorial to get you started. 
+
 - 🎉🎉🎉 **The meshes and textures are released!** 🎉🎉🎉 Download the full dataset from [Google Drive](https://docs.google.com/forms/d/e/1FAIpQLSdF62BQ9TQTSTW0HzyNeRPhlzmREL5T8hUGn-484W1I3eVihQ/viewform?usp=sf_link) and the scenes are in the **Recoerdings_blend** folder. Each .blend file contains 10 motion-captured sequences in that scene.
 
   How to Use:
