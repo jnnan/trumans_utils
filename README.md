@@ -21,6 +21,10 @@ https://github.com/user-attachments/assets/3a510469-0146-4e14-a259-54366168001a
 
 # Human Motion Synthesis in Editable Indoor Scenes
 
+
+https://github.com/user-attachments/assets/e298c65b-0609-4e14-9f70-cbc3801f0144
+
+
 This project provides an implementation of our method for synthesizing human motion in an indoor scene, based on a user-defined trajectory. The furniture configuration within the scene can be edited freely by the user. This is achieved by using a [Flask](https://flask.palletsprojects.com/en/3.0.x/quickstart/) application to facilitate the interactive input and visualization.
 
 ## Features
